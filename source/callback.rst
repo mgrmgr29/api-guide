@@ -5,7 +5,7 @@ All callbacks include the following data. When recieving a callback you must
 return a
 `200 response <https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#200>`_
 code, TradeSafe will continue retry the callback untill a
-200 response code is recieved to the timeout condition it met.
+200 response code is recieved or the timeout condition it met.
 
 Example of the callback data
 ----------------------------
